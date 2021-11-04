@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-export default function Posts() {
+export default function DownloadImage() {
   const download = () => {
    
     fetch('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg', {
@@ -23,10 +23,8 @@ export default function Posts() {
   };
 
   useEffect(() => {
-    window.scrollTo(0, 0);
-    AsfalixService.getInsurers().then((data) => {
-      setInsurers(data.data);
-    });
+   
+    
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
