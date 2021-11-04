@@ -23,7 +23,7 @@ export default function DownloadImage() {
   };
 
   useEffect(() => {
-   
+    download()
     
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
