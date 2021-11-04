@@ -20,6 +20,9 @@ const Layout = ({ children }) => {
                 <Link href="/posts">
                   <a style={{ marginRight: 15 }}>Posts</a>
                 </Link>
+                <Link href="/download">
+                  <a style={{ marginRight: 15 }}>download</a>
+                </Link>
               </nav>
             </Col>
             <Col xs={12} sm={6}>
